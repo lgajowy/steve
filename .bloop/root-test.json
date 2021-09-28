@@ -1,0 +1,200 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root-test",
+        "directory": "/home/lukasz/Projects/steve",
+        "workspaceDir": "/home/lukasz/Projects/steve",
+        "sources": [
+            "/home/lukasz/Projects/steve/src/test/scala",
+            "/home/lukasz/Projects/steve/src/test/scala-2.12",
+            "/home/lukasz/Projects/steve/src/test/scala-2",
+            "/home/lukasz/Projects/steve/src/test/java",
+            "/home/lukasz/Projects/steve/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "root",
+            "server-test",
+            "client-test",
+            "shared-test"
+        ],
+        "classpath": [
+            "/home/lukasz/Projects/steve/.bloop/root/scala-2.12/classes",
+            "/home/lukasz/.sbt/boot/scala-2.12.14/lib/scala-library.jar"
+        ],
+        "out": "/home/lukasz/Projects/steve/.bloop/root",
+        "classesDir": "/home/lukasz/Projects/steve/.bloop/root/scala-2.12/test-classes",
+        "resources": [
+            "/home/lukasz/Projects/steve/src/test/resources",
+            "/home/lukasz/Projects/steve/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.14",
+            "options": [
+                "-encoding",
+                "utf8",
+                "-deprecation",
+                "-explaintypes",
+                "-feature",
+                "-language:existentials",
+                "-language:experimental.macros",
+                "-language:higherKinds",
+                "-language:implicitConversions",
+                "-unchecked",
+                "-Xcheckinit",
+                "-Xfatal-warnings",
+                "-Xlint:adapted-args",
+                "-Xlint:by-name-right-associative",
+                "-Xlint:constant",
+                "-Xlint:delayedinit-select",
+                "-Xlint:doc-detached",
+                "-Xlint:inaccessible",
+                "-Xlint:infer-any",
+                "-Xlint:missing-interpolator",
+                "-Xlint:nullary-override",
+                "-Xlint:nullary-unit",
+                "-Xlint:option-implicit",
+                "-Xlint:package-object-classes",
+                "-Xlint:poly-implicit-overload",
+                "-Xlint:private-shadow",
+                "-Xlint:stars-align",
+                "-Xlint:type-parameter-shadow",
+                "-Xlint:unsound-match",
+                "-Yno-adapted-args",
+                "-Ywarn-dead-code",
+                "-Ywarn-extra-implicit",
+                "-Ywarn-nullary-override",
+                "-Ywarn-nullary-unit",
+                "-Ywarn-numeric-widen",
+                "-Ywarn-unused:implicits",
+                "-Ywarn-unused:imports",
+                "-Ywarn-unused:locals",
+                "-Ywarn-unused:params",
+                "-Ywarn-unused:patvars",
+                "-Ywarn-unused:privates",
+                "-Ywarn-value-discard",
+                "-Ypartial-unification"
+            ],
+            "jars": [
+                "/home/lukasz/.sbt/boot/scala-2.12.14/lib/scala-library.jar",
+                "/home/lukasz/.sbt/boot/scala-2.12.14/lib/scala-compiler.jar",
+                "/home/lukasz/.sbt/boot/scala-2.12.14/lib/scala-xml_2.12.jar",
+                "/home/lukasz/.sbt/boot/scala-2.12.14/lib/jline.jar",
+                "/home/lukasz/.sbt/boot/scala-2.12.14/lib/scala-reflect.jar",
+                "/home/lukasz/.sbt/boot/scala-2.12.14/lib/jansi.jar"
+            ],
+            "analysis": "/home/lukasz/Projects/steve/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/home/lukasz/.sdkman/candidates/java/8.0.242-open/jre",
+                "options": [
+                    "-Duser.dir=/home/lukasz/Projects/steve"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.14",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/lukasz/.sbt/boot/scala-2.12.14/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.14",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/lukasz/.sbt/boot/scala-2.12.14/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
