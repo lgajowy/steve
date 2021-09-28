@@ -1145,3 +1145,179 @@ No more data in the client stdin, exiting...
 [0m2021.09.28 14:50:27 INFO  time: compiled shared in 0.32s[0m
 [0m2021.09.28 14:53:49 INFO  compiling shared (1 scala source)[0m
 [0m2021.09.28 14:53:49 INFO  time: compiled shared in 0.5s[0m
+[0m2021.09.28 15:01:18 INFO  running '/home/lukasz/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals4250886340429360023/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.09.28 15:01:19 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 1.8.0_242)[0m
+[0m2021.09.28 15:01:20 INFO  [info] loading global plugins from /home/lukasz/.sbt/1.0/plugins[0m
+[0m2021.09.28 15:01:20 INFO  [info] loading settings for project steve-build-build-build from metals.sbt ...[0m
+[0m2021.09.28 15:01:21 INFO  [info] loading project definition from /home/lukasz/Projects/steve/project/project/project[0m
+[0m2021.09.28 15:01:21 INFO  [info] loading settings for project steve-build-build from metals.sbt ...[0m
+[0m2021.09.28 15:01:21 INFO  [info] loading project definition from /home/lukasz/Projects/steve/project/project[0m
+[0m2021.09.28 15:01:23 INFO  [success] Generated .bloop/steve-build-build.json[0m
+[0m2021.09.28 15:01:23 INFO  [success] Total time: 2 s, completed Sep 28, 2021 3:01:23 PM[0m
+[0m2021.09.28 15:01:23 INFO  [info] loading settings for project steve-build from metals.sbt,plugins.sbt ...[0m
+[0m2021.09.28 15:01:23 INFO  [info] loading project definition from /home/lukasz/Projects/steve/project[0m
+[0m2021.09.28 15:01:23 INFO  [success] Generated .bloop/steve-build.json[0m
+[0m2021.09.28 15:01:23 INFO  [success] Total time: 0 s, completed Sep 28, 2021 3:01:24 PM[0m
+[0m2021.09.28 15:01:27 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.09.28 15:01:27 INFO  [info] set current project to root (in build file:/home/lukasz/Projects/steve/)[0m
+[0m2021.09.28 15:01:28 INFO  [success] Generated .bloop/root-test.json[0m
+[0m2021.09.28 15:01:28 INFO  [success] Generated .bloop/root.json[0m
+[0m2021.09.28 15:01:28 INFO  [success] Generated .bloop/shared.json[0m
+[0m2021.09.28 15:01:28 INFO  [success] Generated .bloop/shared-test.json[0m
+[0m2021.09.28 15:01:28 INFO  [success] Generated .bloop/server.json[0m
+[0m2021.09.28 15:01:28 INFO  [success] Generated .bloop/server-test.json[0m
+[0m2021.09.28 15:01:28 INFO  [success] Generated .bloop/client.json[0m
+[0m2021.09.28 15:01:28 INFO  [success] Generated .bloop/client-test.json[0m
+[0m2021.09.28 15:01:28 INFO  [success] Total time: 1 s, completed Sep 28, 2021 3:01:29 PM[0m
+[0m2021.09.28 15:01:29 INFO  time: ran 'sbt bloopInstall' in 11s[0m
+[0m2021.09.28 15:01:29 INFO  Disconnecting from Bloop session...[0m
+[0m2021.09.28 15:01:29 INFO  Shut down connection with build server.[0m
+[0m2021.09.28 15:01:29 INFO  Shut down connection with build server.[0m
+[0m2021.09.28 15:01:29 INFO  Shut down connection with build server.[0m
+[0m2021.09.28 15:01:29 INFO  Attempting to connect to the build server...[0m
+[0m2021.09.28 15:01:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/lukasz/.cache/metals/bsp.trace.json[0m
+[0m2021.09.28 15:01:29 INFO  Attempting to connect to the build server...[0m
+[0m2021.09.28 15:01:29 INFO  Attempting to connect to the build server...[0m
+[0m2021.09.28 15:01:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/lukasz/.cache/metals/bsp.trace.json[0m
+[0m2021.09.28 15:01:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/lukasz/.cache/metals/bsp.trace.json[0m
+[0m2021.09.28 15:01:29 INFO  time: Connected to build server in 0.14s[0m
+[0m2021.09.28 15:01:29 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.09.28 15:01:30 INFO  time: indexed workspace in 0.39s[0m
+[0m2021.09.28 15:01:30 INFO  no build target: using presentation compiler with only scala-library: 3.1.0-RC2[0m
+[0m2021.09.28 15:02:00 INFO  running '/home/lukasz/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals8978725532788532541/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.09.28 15:02:01 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 1.8.0_242)[0m
+[0m2021.09.28 15:02:02 INFO  [info] loading global plugins from /home/lukasz/.sbt/1.0/plugins[0m
+[0m2021.09.28 15:02:02 INFO  [info] loading settings for project steve-build-build-build from metals.sbt ...[0m
+[0m2021.09.28 15:02:02 INFO  [info] loading project definition from /home/lukasz/Projects/steve/project/project/project[0m
+[0m2021.09.28 15:02:03 INFO  [info] loading settings for project steve-build-build from metals.sbt ...[0m
+[0m2021.09.28 15:02:03 INFO  [info] loading project definition from /home/lukasz/Projects/steve/project/project[0m
+[0m2021.09.28 15:02:05 INFO  [success] Generated .bloop/steve-build-build.json[0m
+[0m2021.09.28 15:02:05 INFO  [success] Total time: 1 s, completed Sep 28, 2021 3:02:05 PM[0m
+[0m2021.09.28 15:02:06 INFO  [info] loading settings for project steve-build from metals.sbt,plugins.sbt ...[0m
+[0m2021.09.28 15:02:06 INFO  [info] loading project definition from /home/lukasz/Projects/steve/project[0m
+[0m2021.09.28 15:02:08 INFO  [success] Generated .bloop/steve-build.json[0m
+[0m2021.09.28 15:02:08 INFO  [success] Total time: 2 s, completed Sep 28, 2021 3:02:08 PM[0m
+[0m2021.09.28 15:02:10 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.09.28 15:02:10 INFO  [info] set current project to root (in build file:/home/lukasz/Projects/steve/)[0m
+[0m2021.09.28 15:02:10 INFO  [success] Generated .bloop/shared-test.json[0m
+[0m2021.09.28 15:02:10 INFO  [success] Generated .bloop/root.json[0m
+[0m2021.09.28 15:02:10 INFO  [success] Generated .bloop/root-test.json[0m
+[0m2021.09.28 15:02:10 INFO  [success] Generated .bloop/server.json[0m
+[0m2021.09.28 15:02:10 INFO  [success] Generated .bloop/server-test.json[0m
+[0m2021.09.28 15:02:10 INFO  [success] Generated .bloop/shared.json[0m
+[0m2021.09.28 15:02:10 INFO  [success] Generated .bloop/client.json[0m
+[0m2021.09.28 15:02:10 INFO  [success] Generated .bloop/client-test.json[0m
+[0m2021.09.28 15:02:10 INFO  [success] Total time: 0 s, completed Sep 28, 2021 3:02:10 PM[0m
+[0m2021.09.28 15:02:11 INFO  time: ran 'sbt bloopInstall' in 10s[0m
+[0m2021.09.28 15:02:11 INFO  Disconnecting from Bloop session...[0m
+[0m2021.09.28 15:02:11 INFO  Shut down connection with build server.[0m
+[0m2021.09.28 15:02:11 INFO  Shut down connection with build server.[0m
+[0m2021.09.28 15:02:11 INFO  Shut down connection with build server.[0m
+[0m2021.09.28 15:02:11 INFO  Attempting to connect to the build server...[0m
+[0m2021.09.28 15:02:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/lukasz/.cache/metals/bsp.trace.json[0m
+[0m2021.09.28 15:02:11 INFO  Attempting to connect to the build server...[0m
+[0m2021.09.28 15:02:11 INFO  Attempting to connect to the build server...[0m
+[0m2021.09.28 15:02:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/lukasz/.cache/metals/bsp.trace.json[0m
+[0m2021.09.28 15:02:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/lukasz/.cache/metals/bsp.trace.json[0m
+[0m2021.09.28 15:02:11 INFO  time: Connected to build server in 0.12s[0m
+[0m2021.09.28 15:02:11 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.09.28 15:02:11 INFO  time: indexed workspace in 0.36s[0m
+[0m2021.09.28 15:02:12 INFO  no build target: using presentation compiler with only scala-library: 3.1.0-RC2[0m
+[0m2021.09.28 15:03:05 INFO  skipping build import with status 'Installed'[0m
+[0m2021.09.28 15:16:02 INFO  running '/home/lukasz/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals7302526736801402306/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.09.28 15:16:03 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 1.8.0_242)[0m
+[0m2021.09.28 15:16:03 INFO  [info] loading global plugins from /home/lukasz/.sbt/1.0/plugins[0m
+[0m2021.09.28 15:16:04 INFO  [info] loading settings for project steve-build-build-build from metals.sbt ...[0m
+[0m2021.09.28 15:16:04 INFO  [info] loading project definition from /home/lukasz/Projects/steve/project/project/project[0m
+[0m2021.09.28 15:16:04 INFO  [info] loading settings for project steve-build-build from metals.sbt ...[0m
+[0m2021.09.28 15:16:04 INFO  [info] loading project definition from /home/lukasz/Projects/steve/project/project[0m
+[0m2021.09.28 15:16:06 INFO  [success] Generated .bloop/steve-build-build.json[0m
+[0m2021.09.28 15:16:06 INFO  [success] Total time: 1 s, completed Sep 28, 2021 3:16:06 PM[0m
+[0m2021.09.28 15:16:06 INFO  [info] loading settings for project steve-build from metals.sbt,plugins.sbt ...[0m
+[0m2021.09.28 15:16:06 INFO  [info] loading project definition from /home/lukasz/Projects/steve/project[0m
+[0m2021.09.28 15:16:06 INFO  [success] Generated .bloop/steve-build.json[0m
+[0m2021.09.28 15:16:06 INFO  [success] Total time: 1 s, completed Sep 28, 2021 3:16:07 PM[0m
+[0m2021.09.28 15:16:10 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.09.28 15:16:10 INFO  [info] set current project to root (in build file:/home/lukasz/Projects/steve/)[0m
+[0m2021.09.28 15:16:11 INFO  [success] Generated .bloop/root-test.json[0m
+[0m2021.09.28 15:16:11 INFO  [success] Generated .bloop/shared.json[0m
+[0m2021.09.28 15:16:11 INFO  [success] Generated .bloop/shared-test.json[0m
+[0m2021.09.28 15:16:11 INFO  [success] Generated .bloop/root.json[0m
+[0m2021.09.28 15:16:11 INFO  [success] Generated .bloop/server-test.json[0m
+[0m2021.09.28 15:16:11 INFO  [success] Generated .bloop/server.json[0m
+[0m2021.09.28 15:16:11 INFO  [success] Generated .bloop/client.json[0m
+[0m2021.09.28 15:16:11 INFO  [success] Generated .bloop/client-test.json[0m
+[0m2021.09.28 15:16:11 INFO  [success] Total time: 1 s, completed Sep 28, 2021 3:16:12 PM[0m
+[0m2021.09.28 15:16:12 INFO  time: ran 'sbt bloopInstall' in 10s[0m
+[0m2021.09.28 15:16:12 INFO  Disconnecting from Bloop session...[0m
+[0m2021.09.28 15:16:12 INFO  Shut down connection with build server.[0m
+[0m2021.09.28 15:16:12 INFO  Shut down connection with build server.[0m
+[0m2021.09.28 15:16:12 INFO  Shut down connection with build server.[0m
+[0m2021.09.28 15:16:12 INFO  Attempting to connect to the build server...[0m
+[0m2021.09.28 15:16:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/lukasz/.cache/metals/bsp.trace.json[0m
+[0m2021.09.28 15:16:12 INFO  Attempting to connect to the build server...[0m
+[0m2021.09.28 15:16:12 INFO  Attempting to connect to the build server...[0m
+[0m2021.09.28 15:16:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/lukasz/.cache/metals/bsp.trace.json[0m
+[0m2021.09.28 15:16:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/lukasz/.cache/metals/bsp.trace.json[0m
+[0m2021.09.28 15:16:12 INFO  time: Connected to build server in 0.16s[0m
+[0m2021.09.28 15:16:12 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.09.28 15:16:12 INFO  time: indexed workspace in 0.48s[0m
+[0m2021.09.28 15:16:13 INFO  no build target: using presentation compiler with only scala-library: 3.1.0-RC2[0m
+[0m2021.09.28 15:19:13 INFO  running '/home/lukasz/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals1625476037781665145/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.09.28 15:19:14 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 1.8.0_242)[0m
+[0m2021.09.28 15:19:16 INFO  [info] loading global plugins from /home/lukasz/.sbt/1.0/plugins[0m
+[0m2021.09.28 15:19:16 INFO  [info] loading settings for project steve-build-build-build from metals.sbt ...[0m
+[0m2021.09.28 15:19:16 INFO  [info] loading project definition from /home/lukasz/Projects/steve/project/project/project[0m
+[0m2021.09.28 15:19:17 INFO  [info] loading settings for project steve-build-build from metals.sbt ...[0m
+[0m2021.09.28 15:19:17 INFO  [info] loading project definition from /home/lukasz/Projects/steve/project/project[0m
+[0m2021.09.28 15:19:19 INFO  [success] Generated .bloop/steve-build-build.json[0m
+[0m2021.09.28 15:19:19 INFO  [success] Total time: 2 s, completed Sep 28, 2021 3:19:19 PM[0m
+[0m2021.09.28 15:19:21 INFO  [info] loading settings for project steve-build from metals.sbt,plugins.sbt ...[0m
+[0m2021.09.28 15:19:21 INFO  [info] loading project definition from /home/lukasz/Projects/steve/project[0m
+[0m2021.09.28 15:19:26 INFO  [success] Generated .bloop/steve-build.json[0m
+[0m2021.09.28 15:19:26 INFO  [success] Total time: 5 s, completed Sep 28, 2021 3:19:26 PM[0m
+[0m2021.09.28 15:19:26 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.09.28 15:19:27 INFO  [info] set current project to root (in build file:/home/lukasz/Projects/steve/)[0m
+[0m2021.09.28 15:19:27 INFO  [success] Generated .bloop/root-test.json[0m
+[0m2021.09.28 15:19:27 INFO  [success] Generated .bloop/root.json[0m
+[0m2021.09.28 15:19:27 INFO  [success] Generated .bloop/shared.json[0m
+[0m2021.09.28 15:19:27 INFO  [success] Generated .bloop/shared-test.json[0m
+[0m2021.09.28 15:19:27 INFO  [success] Generated .bloop/client.json[0m
+[0m2021.09.28 15:19:27 INFO  [success] Generated .bloop/client-test.json[0m
+[0m2021.09.28 15:19:27 INFO  [success] Generated .bloop/server-test.json[0m
+[0m2021.09.28 15:19:27 INFO  [success] Generated .bloop/server.json[0m
+[0m2021.09.28 15:19:27 INFO  [success] Total time: 1 s, completed Sep 28, 2021 3:19:28 PM[0m
+[0m2021.09.28 15:19:28 INFO  time: ran 'sbt bloopInstall' in 14s[0m
+[0m2021.09.28 15:19:28 INFO  Disconnecting from Bloop session...[0m
+[0m2021.09.28 15:19:28 INFO  Shut down connection with build server.[0m
+[0m2021.09.28 15:19:28 INFO  Shut down connection with build server.[0m
+[0m2021.09.28 15:19:28 INFO  Shut down connection with build server.[0m
+[0m2021.09.28 15:19:28 INFO  Attempting to connect to the build server...[0m
+[0m2021.09.28 15:19:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/lukasz/.cache/metals/bsp.trace.json[0m
+[0m2021.09.28 15:19:28 INFO  Attempting to connect to the build server...[0m
+[0m2021.09.28 15:19:28 INFO  Attempting to connect to the build server...[0m
+[0m2021.09.28 15:19:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/lukasz/.cache/metals/bsp.trace.json[0m
+[0m2021.09.28 15:19:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/lukasz/.cache/metals/bsp.trace.json[0m
+[0m2021.09.28 15:19:28 INFO  time: Connected to build server in 0.13s[0m
+[0m2021.09.28 15:19:28 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.09.28 15:19:28 INFO  time: indexed workspace in 0.5s[0m
+[0m2021.09.28 15:19:28 INFO  no build target: using presentation compiler with only scala-library: 3.1.0-RC2[0m
+[0m2021.09.28 15:21:24 INFO  skipping build import with status 'Dismissed'[0m
+[0m2021.09.28 15:21:26 INFO  skipping build import with status 'Dismissed'[0m
+[0m2021.09.28 15:26:10 INFO  running '/home/lukasz/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals5704441685765200024/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.09.28 15:26:11 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 1.8.0_242)[0m
+[0m2021.09.28 15:26:12 INFO  [info] loading global plugins from /home/lukasz/.sbt/1.0/plugins[0m
+[0m2021.09.28 15:26:13 ERROR [info] waiting for lock on /home/lukasz/.ivy2/.sbt.ivy.lock to be available...[0m
+[0m2021.09.28 15:26:13 INFO  [info] loading settings for project steve-build-build-build from metals.sbt ...[0m
+[0m2021.09.28 15:26:13 INFO  [info] loading project definition from /home/lukasz/Projects/steve/project/project/project[0m
+[0m2021.09.28 15:26:13 INFO  [info] loading settings for project steve-build-build from metals.sbt ...[0m
+[0m2021.09.28 15:26:13 INFO  [info] loading project definition from /home/lukasz/Projects/steve/project/project[0m
+[0m2021.09.28 15:26:15 INFO  [success] Generated .bloop/steve-build-build.json[0m
+[0m2021.09.28 15:26:15 INFO  [success] Total time: 1 s, completed Sep 28, 2021 3:26:15 PM[0m
+[0m2021.09.28 15:26:15 INFO  [info] loading settings for project steve-build from metals.sbt,plugins.sbt ...[0m
+[0m2021.09.28 15:26:15 INFO  [info] loading project definition from /home/lukasz/Projects/steve/project[0m
+[0m2021.09.28 15:26:15 INFO  [success] Generated .bloop/steve-build.json[0m
+[0m2021.09.28 15:26:15 INFO  [success] Total time: 1 s, completed Sep 28, 2021 3:26:16 PM[0m
+[0m2021.09.28 15:26:18 INFO  user cancelled sbt bloopInstall[0m
+[0m2021.09.28 15:26:18 INFO  time: ran 'sbt bloopInstall' in 7.69s[0m
+[0m2021.09.28 15:26:18 INFO  skipping build import with status 'Dismissed'[0m

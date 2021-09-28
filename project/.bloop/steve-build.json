@@ -20,6 +20,8 @@
             "/home/lukasz/.sbt/boot/scala-2.12.14/lib/scala-library.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.9/sbt-bloop-1.4.9.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/davidgregory084/sbt-tpolecat_2.12_1.0/0.1.20/sbt-tpolecat-0.1.20.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/codecommit/sbt-github-actions_2.12_1.0/0.13.0/sbt-github-actions-0.13.0.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-ci-release_2.12_1.0/1.5.9/sbt-ci-release-1.5.9.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.5.5/main_2.12-1.5.5.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.5.1/io_2.12-1.5.1.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar",
@@ -27,6 +29,11 @@
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.lyranthe.sbt/partial-unification/scala_2.12/sbt_1.0/1.1.2/jars/partial-unification.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-dynver/scala_2.12/sbt_1.0/4.1.1/jars/sbt-dynver.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/sbt/sbt-git_2.12_1.0/1.0.1/sbt-git-1.0.1.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/sbt/sbt-sonatype_2.12_1.0/3.9.10/sbt-sonatype-3.9.10.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-pgp_2.12_1.0/2.1.2/sbt-pgp-2.1.2.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.5.5/logic_2.12-1.5.5.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.5.5/actions_2.12-1.5.5.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.5.5/main-settings_2.12-1.5.5.jar",
@@ -48,6 +55,12 @@
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.5.7/compiler-interface-1.5.7.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.5.7/zinc-compile_2.12-1.5.7.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.6/file-tree-views-2.1.6.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/5.11.0.202103091610-r/org.eclipse.jgit-5.11.0.202103091610-r.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/michaelpollmeier/versionsort/1.0.0/versionsort-1.0.0.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/sonatype/spice/zapper/spice-zapper/1.3/spice-zapper-1.3.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-http_2.12/21.8.1/airframe-http_2.12-21.8.1.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/pgp-library_2.12/2.1.2/pgp-library_2.12-2.1.2.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.5.0/gigahorse-okhttp_2.12-0.5.0.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.5.5/util-relation_2.12-1.5.5.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.5.5/completion_2.12-1.5.5.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.5.5/task-system_2.12-1.5.5.jar",
@@ -75,13 +88,26 @@
             "/home/lukasz/.sbt/boot/scala-2.12.14/lib/scala-reflect.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.1/checker-qual-3.4.1.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0.jar",
-            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.4.2/scala-collection-compat_2.12-2.4.2.jar",
-            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.5.0/scala-collection-compat_2.12-2.5.0.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar",
             "/home/lukasz/.sbt/boot/scala-2.12.14/lib/scala-compiler.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar",
-            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.5.0/gigahorse-okhttp_2.12-0.5.0.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.7.0/okhttp-urlconnection-3.7.0.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745/ivy-2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.7/JavaEWAH-1.1.7.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/hawtbuf/hawtbuf-proto/1.9/hawtbuf-proto-1.9.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-rx_2.12/21.8.1/airframe-rx_2.12-21.8.1.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-control_2.12/21.8.1/airframe-control_2.12-21.8.1.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-surface_2.12/21.8.1/airframe-surface_2.12-21.8.1.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-json_2.12/21.8.1/airframe-json_2.12-21.8.1.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-codec_2.12/21.8.1/airframe-codec_2.12-21.8.1.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk15on/1.60/bcpg-jdk15on-1.60.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.5.0/gigahorse-core_2.12-0.5.0.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.2/okhttp-3.14.2.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-builtins/3.19.0/jline-builtins-3.19.0.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-agent/1.5.5/test-agent-1.5.5.jar",
@@ -94,17 +120,24 @@
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.5.7/zinc-persist_2.12-1.5.7.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.3.1/ipcsocket-1.3.1.jar",
-            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0.jar",
-            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.5.0/gigahorse-core_2.12-0.5.0.jar",
-            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.2/okhttp-3.14.2.jar",
-            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0.jar",
-            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.5.7/zinc-persist-core-assembly-1.5.7.jar",
-            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/hawtbuf/hawtbuf/1.9/hawtbuf-1.9.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-log_2.12/21.8.1/airframe-log_2.12-21.8.1.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-msgpack_2.12/21.8.1/airframe-msgpack_2.12-21.8.1.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-metrics_2.12/21.8.1/airframe-metrics_2.12-21.8.1.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-ulid_2.12/21.8.1/airframe-ulid_2.12-21.8.1.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.0/ssl-config-core_2.12-0.4.0.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.5.7/zinc-persist-core-assembly-1.5.7.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.5/logback-core-1.2.5.jar",
+            "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/msgpack/msgpack-core/0.9.0/msgpack-core-0.9.0.jar",
             "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar"
         ],
         "out": "/home/lukasz/Projects/steve/project/.bloop/steve-build",
@@ -152,8 +185,8 @@
                 "import _root_.sbt._",
                 "import _root_.sbt.Keys._",
                 "import _root_.sbt.nio.Keys._",
-                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._, _root_.io.github.davidgregory084.TpolecatPlugin.autoImport._, _root_.org.lyranthe.sbt.PartialUnification.autoImport._",
-                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.io.github.davidgregory084.TpolecatPlugin, _root_.org.lyranthe.sbt.PartialUnification"
+                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._, _root_.io.github.davidgregory084.TpolecatPlugin.autoImport._, _root_.sbtghactions.GenerativePlugin.autoImport._, _root_.sbtghactions.GitHubActionsPlugin.autoImport._, _root_.org.lyranthe.sbt.PartialUnification.autoImport._, _root_.sbtdynver.DynVerPlugin.autoImport._, _root_.com.typesafe.sbt.GitPlugin.autoImport._, _root_.xerial.sbt.Sonatype.autoImport._, _root_.com.jsuereth.sbtpgp.SbtPgp.autoImport._",
+                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.io.github.davidgregory084.TpolecatPlugin, _root_.sbtghactions.GenerativePlugin, _root_.sbtghactions.GitHubActionsPlugin, _root_.com.geirsson.CiReleasePlugin, _root_.org.lyranthe.sbt.PartialUnification, _root_.sbtdynver.DynVerPlugin, _root_.com.typesafe.sbt.GitBranchPrompt, _root_.com.typesafe.sbt.GitPlugin, _root_.com.typesafe.sbt.GitVersioning, _root_.xerial.sbt.Sonatype, _root_.com.jsuereth.sbtpgp.SbtPgp"
             ]
         },
         "test": {
@@ -249,6 +282,40 @@
                     ]
                 },
                 {
+                    "organization": "com.codecommit",
+                    "name": "sbt-github-actions",
+                    "version": "0.13.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-github-actions",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/codecommit/sbt-github-actions_2.12_1.0/0.13.0/sbt-github-actions-0.13.0.jar"
+                        },
+                        {
+                            "name": "sbt-github-actions",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/codecommit/sbt-github-actions_2.12_1.0/0.13.0/sbt-github-actions-0.13.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.sbt",
+                    "name": "sbt-ci-release",
+                    "version": "1.5.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-ci-release",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-ci-release_2.12_1.0/1.5.9/sbt-ci-release-1.5.9.jar"
+                        },
+                        {
+                            "name": "sbt-ci-release",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-ci-release_2.12_1.0/1.5.9/sbt-ci-release-1.5.9-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.google.code.gson",
                     "name": "gson",
                     "version": "2.7",
@@ -309,19 +376,274 @@
                     ]
                 },
                 {
-                    "organization": "org.scala-sbt",
-                    "name": "sbt",
-                    "version": "1.5.5",
+                    "organization": "org.yaml",
+                    "name": "snakeyaml",
+                    "version": "1.29",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "sbt",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.5/sbt-1.5.5.jar"
+                            "name": "snakeyaml",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar"
                         },
                         {
-                            "name": "sbt",
+                            "name": "snakeyaml",
                             "classifier": "sources",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.5/sbt-1.5.5-sources.jar"
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.29/snakeyaml-1.29-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.dwijnand",
+                    "name": "sbt-dynver",
+                    "version": "4.1.1",
+                    "configurations": "compile",
+                    "artifacts": [
+                        {
+                            "name": "sbt-dynver",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-dynver/scala_2.12/sbt_1.0/4.1.1/jars/sbt-dynver.jar"
+                        },
+                        {
+                            "name": "sbt-dynver",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-dynver/scala_2.12/sbt_1.0/4.1.1/srcs/sbt-dynver-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.sbt",
+                    "name": "sbt-git",
+                    "version": "1.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-git",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/sbt/sbt-git_2.12_1.0/1.0.1/sbt-git-1.0.1.jar"
+                        },
+                        {
+                            "name": "sbt-git",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/sbt/sbt-git_2.12_1.0/1.0.1/sbt-git-1.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.xerial.sbt",
+                    "name": "sbt-sonatype",
+                    "version": "3.9.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-sonatype",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/sbt/sbt-sonatype_2.12_1.0/3.9.10/sbt-sonatype-3.9.10.jar"
+                        },
+                        {
+                            "name": "sbt-sonatype",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/sbt/sbt-sonatype_2.12_1.0/3.9.10/sbt-sonatype-3.9.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.sbt",
+                    "name": "sbt-pgp",
+                    "version": "2.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-pgp",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-pgp_2.12_1.0/2.1.2/sbt-pgp-2.1.2.jar"
+                        },
+                        {
+                            "name": "sbt-pgp",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-pgp_2.12_1.0/2.1.2/sbt-pgp-2.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jgit",
+                    "name": "org.eclipse.jgit",
+                    "version": "5.11.0.202103091610-r",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "org.eclipse.jgit",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/5.11.0.202103091610-r/org.eclipse.jgit-5.11.0.202103091610-r.jar"
+                        },
+                        {
+                            "name": "org.eclipse.jgit",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/5.11.0.202103091610-r/org.eclipse.jgit-5.11.0.202103091610-r-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.michaelpollmeier",
+                    "name": "versionsort",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "versionsort",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/michaelpollmeier/versionsort/1.0.0/versionsort-1.0.0.jar"
+                        },
+                        {
+                            "name": "versionsort",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/michaelpollmeier/versionsort/1.0.0/versionsort-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.sonatype.spice.zapper",
+                    "name": "spice-zapper",
+                    "version": "1.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spice-zapper",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/sonatype/spice/zapper/spice-zapper/1.3/spice-zapper-1.3.jar"
+                        },
+                        {
+                            "name": "spice-zapper",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/sonatype/spice/zapper/spice-zapper/1.3/spice-zapper-1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-http_2.12",
+                    "version": "21.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-http_2.12",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-http_2.12/21.8.1/airframe-http_2.12-21.8.1.jar"
+                        },
+                        {
+                            "name": "airframe-http_2.12",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-http_2.12/21.8.1/airframe-http_2.12-21.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.sbt",
+                    "name": "pgp-library_2.12",
+                    "version": "2.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "pgp-library_2.12",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/pgp-library_2.12/2.1.2/pgp-library_2.12-2.1.2.jar"
+                        },
+                        {
+                            "name": "pgp-library_2.12",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/pgp-library_2.12/2.1.2/pgp-library_2.12-2.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.googlecode.javaewah",
+                    "name": "JavaEWAH",
+                    "version": "1.1.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "JavaEWAH",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.7/JavaEWAH-1.1.7.jar"
+                        },
+                        {
+                            "name": "JavaEWAH",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.7/JavaEWAH-1.1.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.30",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "guava",
+                    "version": "16.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "guava",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpclient",
+                    "version": "4.3.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpclient",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5.jar"
+                        },
+                        {
+                            "name": "httpclient",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "jcl-over-slf4j",
+                    "version": "1.7.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jcl-over-slf4j",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar"
+                        },
+                        {
+                            "name": "jcl-over-slf4j",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.fusesource.hawtbuf",
+                    "name": "hawtbuf-proto",
+                    "version": "1.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hawtbuf-proto",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/hawtbuf/hawtbuf-proto/1.9/hawtbuf-proto-1.9.jar"
+                        },
+                        {
+                            "name": "hawtbuf-proto",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/hawtbuf/hawtbuf-proto/1.9/hawtbuf-proto-1.9-sources.jar"
                         }
                     ]
                 },
@@ -339,6 +661,329 @@
                             "name": "scala-library",
                             "classifier": "sources",
                             "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-rx_2.12",
+                    "version": "21.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-rx_2.12",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-rx_2.12/21.8.1/airframe-rx_2.12-21.8.1.jar"
+                        },
+                        {
+                            "name": "airframe-rx_2.12",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-rx_2.12/21.8.1/airframe-rx_2.12-21.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-control_2.12",
+                    "version": "21.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-control_2.12",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-control_2.12/21.8.1/airframe-control_2.12-21.8.1.jar"
+                        },
+                        {
+                            "name": "airframe-control_2.12",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-control_2.12/21.8.1/airframe-control_2.12-21.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-surface_2.12",
+                    "version": "21.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-surface_2.12",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-surface_2.12/21.8.1/airframe-surface_2.12-21.8.1.jar"
+                        },
+                        {
+                            "name": "airframe-surface_2.12",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-surface_2.12/21.8.1/airframe-surface_2.12-21.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-json_2.12",
+                    "version": "21.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-json_2.12",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-json_2.12/21.8.1/airframe-json_2.12-21.8.1.jar"
+                        },
+                        {
+                            "name": "airframe-json_2.12",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-json_2.12/21.8.1/airframe-json_2.12-21.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-codec_2.12",
+                    "version": "21.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-codec_2.12",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-codec_2.12/21.8.1/airframe-codec_2.12-21.8.1.jar"
+                        },
+                        {
+                            "name": "airframe-codec_2.12",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-codec_2.12/21.8.1/airframe-codec_2.12-21.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_2.12",
+                    "version": "2.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.5.0/scala-collection-compat_2.12-2.5.0.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.5.0/scala-collection-compat_2.12-2.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bouncycastle",
+                    "name": "bcpg-jdk15on",
+                    "version": "1.60",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "bcpg-jdk15on",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk15on/1.60/bcpg-jdk15on-1.60.jar"
+                        },
+                        {
+                            "name": "bcpg-jdk15on",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk15on/1.60/bcpg-jdk15on-1.60-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpcore",
+                    "version": "4.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpcore",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar"
+                        },
+                        {
+                            "name": "httpcore",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-codec",
+                    "name": "commons-codec",
+                    "version": "1.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-codec",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.fusesource.hawtbuf",
+                    "name": "hawtbuf",
+                    "version": "1.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hawtbuf",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/hawtbuf/hawtbuf/1.9/hawtbuf-1.9.jar"
+                        },
+                        {
+                            "name": "hawtbuf",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/hawtbuf/hawtbuf/1.9/hawtbuf-1.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-log_2.12",
+                    "version": "21.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-log_2.12",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-log_2.12/21.8.1/airframe-log_2.12-21.8.1.jar"
+                        },
+                        {
+                            "name": "airframe-log_2.12",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-log_2.12/21.8.1/airframe-log_2.12-21.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.14",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/lukasz/.sbt/boot/scala-2.12.14/lib/scala-reflect.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.14/scala-reflect-2.12.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-msgpack_2.12",
+                    "version": "21.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-msgpack_2.12",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-msgpack_2.12/21.8.1/airframe-msgpack_2.12-21.8.1.jar"
+                        },
+                        {
+                            "name": "airframe-msgpack_2.12",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-msgpack_2.12/21.8.1/airframe-msgpack_2.12-21.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-metrics_2.12",
+                    "version": "21.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-metrics_2.12",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-metrics_2.12/21.8.1/airframe-metrics_2.12-21.8.1.jar"
+                        },
+                        {
+                            "name": "airframe-metrics_2.12",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-metrics_2.12/21.8.1/airframe-metrics_2.12-21.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-ulid_2.12",
+                    "version": "21.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-ulid_2.12",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-ulid_2.12/21.8.1/airframe-ulid_2.12-21.8.1.jar"
+                        },
+                        {
+                            "name": "airframe-ulid_2.12",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-ulid_2.12/21.8.1/airframe-ulid_2.12-21.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bouncycastle",
+                    "name": "bcprov-jdk15on",
+                    "version": "1.60",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "bcprov-jdk15on",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar"
+                        },
+                        {
+                            "name": "bcprov-jdk15on",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.2.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.5/logback-core-1.2.5.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.5/logback-core-1.2.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.msgpack",
+                    "name": "msgpack-core",
+                    "version": "0.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "msgpack-core",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/msgpack/msgpack-core/0.9.0/msgpack-core-0.9.0.jar"
+                        },
+                        {
+                            "name": "msgpack-core",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/msgpack/msgpack-core/0.9.0/msgpack-core-0.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-sbt",
+                    "name": "sbt",
+                    "version": "1.5.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.5/sbt-1.5.5.jar"
+                        },
+                        {
+                            "name": "sbt",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.5/sbt-1.5.5-sources.jar"
                         }
                     ]
                 },
@@ -768,6 +1413,23 @@
                     ]
                 },
                 {
+                    "organization": "com.eed3si9n",
+                    "name": "gigahorse-okhttp_2.12",
+                    "version": "0.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gigahorse-okhttp_2.12",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.5.0/gigahorse-okhttp_2.12-0.5.0.jar"
+                        },
+                        {
+                            "name": "gigahorse-okhttp_2.12",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.5.0/gigahorse-okhttp_2.12-0.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.scala-sbt",
                     "name": "util-relation_2.12",
                     "version": "1.5.5",
@@ -1176,23 +1838,6 @@
                     ]
                 },
                 {
-                    "organization": "org.scala-lang",
-                    "name": "scala-reflect",
-                    "version": "2.12.14",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-reflect",
-                            "path": "/home/lukasz/.sbt/boot/scala-2.12.14/lib/scala-reflect.jar"
-                        },
-                        {
-                            "name": "scala-reflect",
-                            "classifier": "sources",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.14/scala-reflect-2.12.14-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "org.checkerframework",
                     "name": "checker-qual",
                     "version": "3.4.1",
@@ -1223,40 +1868,6 @@
                             "name": "error_prone_annotations",
                             "classifier": "sources",
                             "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-lang.modules",
-                    "name": "scala-collection-compat_2.12",
-                    "version": "2.4.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-collection-compat_2.12",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.4.2/scala-collection-compat_2.12-2.4.2.jar"
-                        },
-                        {
-                            "name": "scala-collection-compat_2.12",
-                            "classifier": "sources",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.4.2/scala-collection-compat_2.12-2.4.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.slf4j",
-                    "name": "slf4j-api",
-                    "version": "1.7.26",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "slf4j-api",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar"
-                        },
-                        {
-                            "name": "slf4j-api",
-                            "classifier": "sources",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26-sources.jar"
                         }
                     ]
                 },
@@ -1295,23 +1906,6 @@
                     ]
                 },
                 {
-                    "organization": "com.eed3si9n",
-                    "name": "gigahorse-okhttp_2.12",
-                    "version": "0.5.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "gigahorse-okhttp_2.12",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.5.0/gigahorse-okhttp_2.12-0.5.0.jar"
-                        },
-                        {
-                            "name": "gigahorse-okhttp_2.12",
-                            "classifier": "sources",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.5.0/gigahorse-okhttp_2.12-0.5.0-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "com.squareup.okhttp3",
                     "name": "okhttp-urlconnection",
                     "version": "3.7.0",
@@ -1342,6 +1936,57 @@
                             "name": "ivy",
                             "classifier": "sources",
                             "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745/ivy-2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.12",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.eed3si9n",
+                    "name": "gigahorse-core_2.12",
+                    "version": "0.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gigahorse-core_2.12",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.5.0/gigahorse-core_2.12-0.5.0.jar"
+                        },
+                        {
+                            "name": "gigahorse-core_2.12",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.5.0/gigahorse-core_2.12-0.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.squareup.okhttp3",
+                    "name": "okhttp",
+                    "version": "3.14.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "okhttp",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.2/okhttp-3.14.2.jar"
+                        },
+                        {
+                            "name": "okhttp",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.2/okhttp-3.14.2-sources.jar"
                         }
                     ]
                 },
@@ -1550,23 +2195,6 @@
                     ]
                 },
                 {
-                    "organization": "org.scala-lang.modules",
-                    "name": "scala-parser-combinators_2.12",
-                    "version": "1.1.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-parser-combinators_2.12",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"
-                        },
-                        {
-                            "name": "scala-parser-combinators_2.12",
-                            "classifier": "sources",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "net.openhft",
                     "name": "zero-allocation-hashing",
                     "version": "0.10.1",
@@ -1597,91 +2225,6 @@
                             "name": "jansi",
                             "classifier": "sources",
                             "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.eed3si9n",
-                    "name": "gigahorse-core_2.12",
-                    "version": "0.5.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "gigahorse-core_2.12",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.5.0/gigahorse-core_2.12-0.5.0.jar"
-                        },
-                        {
-                            "name": "gigahorse-core_2.12",
-                            "classifier": "sources",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.5.0/gigahorse-core_2.12-0.5.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.squareup.okhttp3",
-                    "name": "okhttp",
-                    "version": "3.14.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "okhttp",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.2/okhttp-3.14.2.jar"
-                        },
-                        {
-                            "name": "okhttp",
-                            "classifier": "sources",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.2/okhttp-3.14.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.jline",
-                    "name": "jline-style",
-                    "version": "3.19.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "jline-style",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0.jar"
-                        },
-                        {
-                            "name": "jline-style",
-                            "classifier": "sources",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-sbt",
-                    "name": "zinc-persist-core-assembly",
-                    "version": "1.5.7",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "zinc-persist-core-assembly",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.5.7/zinc-persist-core-assembly-1.5.7.jar"
-                        },
-                        {
-                            "name": "zinc-persist-core-assembly",
-                            "classifier": "sources",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.5.7/zinc-persist-core-assembly-1.5.7-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-sbt",
-                    "name": "sbinary_2.12",
-                    "version": "0.5.1",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "sbinary_2.12",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar"
-                        },
-                        {
-                            "name": "sbinary_2.12",
-                            "classifier": "sources",
-                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1-sources.jar"
                         }
                     ]
                 },
@@ -1733,6 +2276,57 @@
                             "name": "okio",
                             "classifier": "sources",
                             "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.17.2/okio-1.17.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jline",
+                    "name": "jline-style",
+                    "version": "3.19.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jline-style",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0.jar"
+                        },
+                        {
+                            "name": "jline-style",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-sbt",
+                    "name": "zinc-persist-core-assembly",
+                    "version": "1.5.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zinc-persist-core-assembly",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.5.7/zinc-persist-core-assembly-1.5.7.jar"
+                        },
+                        {
+                            "name": "zinc-persist-core-assembly",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.5.7/zinc-persist-core-assembly-1.5.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-sbt",
+                    "name": "sbinary_2.12",
+                    "version": "0.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbinary_2.12",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar"
+                        },
+                        {
+                            "name": "sbinary_2.12",
+                            "classifier": "sources",
+                            "path": "/home/lukasz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1-sources.jar"
                         }
                     ]
                 },
