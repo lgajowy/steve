@@ -1,6 +1,6 @@
 package steve
 
-import cats.syntax.apply
+import io.circe.Codec
 
 enum Command {
   case Build(build: steve.Build)
@@ -9,17 +9,17 @@ enum Command {
 
 final case class Build(
   base: Build.Base,
-  commands: List[Command],
-)
+  commands: List[Build.Command],
+) derives Codec.AsObject
 
 object Build {
 
-  enum Base {
+  enum Base derives Codec.AsObject {
     case EmptyImage
     case ImageReference(hash: Hash)
   }
 
-  enum Command {
+  enum Command derives Codec.AsObject {
     case Upsert(key: String, value: String)
     case Delete(key: String)
   }
@@ -28,6 +28,6 @@ object Build {
 
 }
 
-final case class Hash(value: Array[Byte])
+final case class Hash(value: Array[Byte]) derives Codec.AsObject
 
-final case class SystemState(all: Map[String, String])
+final case class SystemState(all: Map[String, String]) derives Codec.AsObject
