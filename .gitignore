@@ -1,6 +1,6 @@
 **/target/
 **/.DS_Store
 
-./bloop/
+/.bloop/*
 /.idea/*
-.metals/
+/.metals/*
