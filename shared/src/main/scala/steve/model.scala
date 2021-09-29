@@ -7,7 +7,7 @@ enum Command {
   case Run(hash: Hash)
 }
 
-case class Build(
+final case class Build(
   base: Build.Base,
   commands: List[Command],
 )
@@ -28,4 +28,6 @@ object Build {
 
 }
 
-case class Hash(value: Array[Byte])
+final case class Hash(value: Array[Byte])
+
+final case class SystemState(all: Map[String, String])
