@@ -2,9 +2,11 @@ package steve
 
 import io.circe.Codec
 
-enum Command {
-  case Build(build: steve.Build)
-  case Run(hash: Hash)
+sealed trait Command extends Product with Serializable
+
+object Command {
+  final case class Build(build: steve.Build) extends Command
+  final case class Run(hash: Hash) extends Command
 }
 
 final case class Build(
@@ -14,20 +16,23 @@ final case class Build(
 
 object Build {
 
-  enum Base derives Codec.AsObject {
-    case EmptyImage
-    case ImageReference(hash: Hash)
+  sealed trait Base extends Product with Serializable derives Codec.AsObject
+
+  object Base {
+    case object EmptyImage extends Base
+    final case class ImageReference(hash: Hash) extends Base
   }
 
-  enum Command derives Codec.AsObject {
-    case Upsert(key: String, value: String)
-    case Delete(key: String)
+  sealed trait Command extends Product with Serializable derives Codec.AsObject
+
+  object Command {
+    final case class Upsert(key: String, value: String) extends Command
+    final case class Delete(key: String) extends Command
   }
 
-  val empty = Build(Base.EmptyImage, Nil)
-
+  val empty: Build = Build(Base.EmptyImage, Nil)
 }
 
-final case class Hash(value: Array[Byte]) derives Codec.AsObject
+final case class Hash(value: Vector[Byte]) derives Codec.AsObject
 
 final case class SystemState(all: Map[String, String]) derives Codec.AsObject
